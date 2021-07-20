@@ -30,15 +30,15 @@ const Nav = (props) => {
     <nav className="navbar navbarBc">
       <div className="container">
         <div className="btn-group">
-          <NavLink to="/schedule" className="btn btnNav">
+          <NavLink to="/booking" className="btn btnNav">
             <img src={Schedule} alt="schedule" />
             Agendar
           </NavLink>
-          <NavLink to="/meeting" className="btn btnNav">
+          <NavLink to="/schedule" className="btn btnNav">
             <img src={User} alt="user" />
             Mi Agenda
           </NavLink>
-          <NavLink to="/booking" className="btn btnNav">
+          <NavLink to="/meeting" className="btn btnNav">
             <img src={Meets} alt="meets" />
             Reuniones
           </NavLink>

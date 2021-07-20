@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../img/logo.png";
 import { BrowserRouter as Link } from "react-router-dom";
 
-export const Header = () => {
+const Header = () => {
   return (
     <nav className="headerBc">
       <div className="container">
@@ -21,3 +21,5 @@ export const Header = () => {
     </nav>
   );
 };
+
+export default Header;
