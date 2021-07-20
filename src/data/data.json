@@ -712,7 +712,7 @@
     "option": "reunion",
     "name": "I",
     "state": "Disponible",
-    "capacity": 11,
+    "capacity": 2,
     "chair": [{
             "id": 1,
             "state": "Disponible"
