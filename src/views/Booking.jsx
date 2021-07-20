@@ -12,6 +12,12 @@ export const Booking = () => {
         <button className="btnOffice">Jornada</button>
         <button className="btnMeeting">Reunión</button>
       </section>
+      <section className='mainOptions'>
+      <input type="date" name="" id="" />
+      <input type="time" />
+      <input type="time" />
+      <input type="number" />
+      </section>
     </React.Fragment>
   );
 };
