@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
+/* Responsive */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* header */
+.headerBc {
+  background-color: #99ac21;
+  color: #fbfbfb;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+/* Navbar */
+.navbarBc {
+  background-color: #fbfbfb;
+}
+
+.btnNav {
+  background-color: #fbfbfb;
+}
+
+.btnNav:active {
+  background-color: #99ae21;
+  opacity: 50%;
+}
+
+/* Schedule */
+
+/* Meetings */
+
+.btnOffice {
+  background-color: #9d4878;
   color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.btnMeeting {
+  background-color: #9d4878;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnMeeting:active {
+  background-color: #99ac21;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.5em;
 }
+
+.btnOffice:active {
+  background-color: #99ac21;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* WorkDay */
+
+/* Booking */
+
+/* Login */
+
+.sideBar {
+  background-color: #99ac21;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 35%;
+}
+
+.contLogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Logout */
