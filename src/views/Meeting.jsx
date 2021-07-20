@@ -1,17 +1,23 @@
 import React from "react";
-import { Nav } from "../components/Nav";
-import { Header } from "../components/Header";
+import Nav from "../components/Nav";
+import Header from "../components/Header";
+import Attendees from "../components/Attendees";
+import MeetingMap from "../components/MeetingMap";
 
-export const Meeting = () => {
+
+
+const Meeting = () => {
   return (
     <React.Fragment>
       <Header />
       <Nav />
-      <section className="mainContainer">
-        <h3>¿Qué necesitas agendar?</h3>
-        <button className="btnOffice">Jornada</button>
-        <button className="btnMeeting">Reunión</button>
+      <section>
+        Aca va la wea de quien chucha está en la reu
       </section>
+      <Attendees />
+      <MeetingMap />
     </React.Fragment>
   );
 };
+
+export default Meeting;

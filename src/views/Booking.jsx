@@ -1,8 +1,8 @@
 import React from "react";
-import { Nav } from "../components/Nav";
-import { Header } from "../components/Header";
+import  Nav  from "../components/Nav";
+import Header from "../components/Header";
 
-export const Booking = () => {
+const Booking = () => {
   return (
     <React.Fragment>
       <Header />
@@ -12,6 +12,14 @@ export const Booking = () => {
         <button className="btnOffice">Jornada</button>
         <button className="btnMeeting">Reunión</button>
       </section>
+      <section className='mainOptions'>
+      <input type="date" name="" id="" />
+      <input type="time" />
+      <input type="time" />
+      <input type="number" />
+      </section>
     </React.Fragment>
   );
 };
+
+export default Booking;

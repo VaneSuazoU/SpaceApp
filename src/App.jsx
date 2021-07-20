@@ -1,12 +1,11 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Login } from "./views/Login.jsx";
-import { Schedule } from "./views/Schedule.jsx";
-import { Meeting } from "./views/Meeting.jsx";
-import { Office } from "./views/Office.jsx";
-import { Booking } from "./views/Booking.jsx";
-import { Logout } from "./views/Logout.jsx";
+import Login from "./views/Login";
+import Schedule from "./views/Schedule";
+import Meeting from "./views/Meeting";
+import Office from "./views/Office";
+import Booking from "./views/Booking";
 
 const App = () => {
   return (
@@ -26,9 +25,6 @@ const App = () => {
         </Route>
         <Route exact path="/office">
           <Office />
-        </Route>
-        <Route exact path="/logout">
-          <Logout />
         </Route>
       </Switch>
     </Router>
