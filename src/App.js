@@ -1,45 +1,38 @@
-import './App.css';
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom';
-import { Login } from './views/Login.jsx';
-import { Schedule } from './views/Schedule.jsx';
-import { Meeting } from './views/Meeting.jsx';
-import { WorkDay } from './views/WorkDay.jsx';
-import { Booking } from './views/Booking.jsx';
-import { Logout } from './views/Logout.jsx';
+import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Login } from "./views/Login.jsx";
+import { Schedule } from "./views/Schedule.jsx";
+import { Meeting } from "./views/Meeting.jsx";
+import { WorkDay } from "./views/WorkDay.jsx";
+import { Booking } from "./views/Booking.jsx";
+import { Logout } from "./views/Logout.jsx";
 
 const App = () => {
   return (
-    <Router>      
-      <div className="container">
+    <Router>
         <Switch>
-          <Route path ='/' exact>
+          <Route exact path="/">
             <Login />
           </Route>
-          <Route path ='/schedule'>
+          <Route exact path="/schedule">
             <Schedule />
           </Route>
-          <Route path ='/meeting'>
+          <Route exact path="/meeting">
             <Meeting />
           </Route>
-          <Route path ='/booking'>
+          <Route exact path="/booking">
             <Booking />
           </Route>
-          <Route path ='/workday'>
+          <Route exact path="/workday">
             <WorkDay />
           </Route>
-          <Route path ='/logout'>
+          <Route exact path="/logout">
             <Logout />
           </Route>
         </Switch>
-      </div>
-      
     </Router>
   );
-}
+};
 
 export default App;
