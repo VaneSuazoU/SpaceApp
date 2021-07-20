@@ -7,14 +7,16 @@ import { Meeting } from "./views/Meeting.jsx";
 import { WorkDay } from "./views/WorkDay.jsx";
 import { Booking } from "./views/Booking.jsx";
 import { Logout } from "./views/Logout.jsx";
+import {Nav} from "./views/Nav"
 
 const App = () => {
   return (
     <Router>
         <Switch>
           <Route exact path="/">
-            <Login />
+            <Login/>
           </Route>
+          <Nav/>
           <Route exact path="/schedule">
             <Schedule />
           </Route>
