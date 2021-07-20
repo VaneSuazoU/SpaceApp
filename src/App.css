@@ -1,3 +1,8 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Responsive */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,6 +33,56 @@
 }
 
 /* Schedule */
+.dateContainer {
+  padding-left: 11em;
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+  padding-top: 1em;
+}
+.today {
+  font-weight: bold;
+  background-color: #99ac21;
+  border-radius: 0.5em;
+  border-style: none;
+  color: white;
+  }
+
+.infoCard {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+  background-color: #C4C4C4;
+  border-radius: 0.5em;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.meetingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1em;
+  width: 85vw;
+  height: 45vh;
+}
+.editBtn {
+  display: flex;
+  width: 12em;
+  justify-content: space-between;
+}
+.btnCancel {
+  background-color: #9d4878;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+}
+.btnEdit {
+  background-color: #99ac21;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+}
 
 /* Meetings */
 
@@ -36,7 +91,7 @@
   color: white;
   border-radius: 5px;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 .btnMeeting {
@@ -44,7 +99,7 @@
   color: white;
   border-radius: 5px;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 .btnMeeting:active {
@@ -71,7 +126,30 @@
 /* WorkDay */
 
 /* Booking */
-
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+.mainOptions {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  width: 60vw;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
 /* Login */
 
 .sideBar {
@@ -87,6 +165,27 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.btnLogin {
+  display: flex;
+  justify-content: center;
+  background: #9d4878;
+  padding: 1em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+.btnLogin:hover {
+  background-color: #99ae21;
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 /* Logout */
