@@ -1,0 +1,726 @@
+[{
+    "id": "1",
+    "option": "jornada",
+    "name": "G1",
+    "state": "Disponible",
+    "capacity": 12,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "2",
+    "option": "jornada",
+    "name": "G2",
+    "state": "Disponible",
+    "capacity": 12,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "3",
+    "option": "jornada",
+    "name": "G3",
+    "state": "Disponible",
+    "capacity": 11,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "4",
+    "option": "jornada",
+    "name": "G4",
+    "state": "Disponible",
+    "capacity": 14,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }, {
+            "id": 13,
+            "state": "Disponible"
+        }, {
+            "id": 14,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "5", 
+    "option": "jornada",
+    "name": "G5",
+    "state": "Disponible",
+    "capacity": 12,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "6",
+    "option": "jornada",
+    "name": "G6",
+    "state": "Disponible",
+    "capacity": 11,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "7",
+    "option": "jornada",
+    "name": "G7",
+    "state": "Disponible",
+    "capacity": 12,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "8",
+    "option": "jornada",
+    "name": "G8",
+    "state": "Disponible",
+    "capacity": 15,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        },  {
+            "id": 12,
+            "state": "Disponible"
+        }, {
+            "id": 13,
+            "state": "Disponible"
+        }, {
+            "id": 14,
+            "state": "Disponible"
+        }, {
+            "id": 15,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "9",
+    "option": "jornada",
+    "name": "G9",
+    "state": "Disponible",
+    "capacity": 10,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "10",
+    "option": "jornada",
+    "name": "G10",
+    "state": "Disponible",
+    "capacity": 10,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "11",
+    "option": "jornada",
+    "name": "G11",
+    "state": "Disponible",
+    "capacity": 13,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        }, {
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }, {
+            "id": 13,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "12",
+    "option": "jornada",
+    "name": "G12",
+    "state": "Disponible",
+    "capacity": 20,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }, {
+            "id": 9,
+            "state": "Disponible"
+        }, {
+            "id": 10,
+            "state": "Disponible"
+        },{
+            "id": 11,
+            "state": "Disponible"
+        }, {
+            "id": 12,
+            "state": "Disponible"
+        }, {
+            "id": 13,
+            "state": "Disponible"
+        }, {
+            "id": 14,
+            "state": "Disponible"
+        }, {
+            "id": 15,
+            "state": "Disponible"
+        }, {
+            "id": 16,
+            "state": "Disponible"
+        }, {
+            "id": 17,
+            "state": "Disponible"
+        }, {
+            "id": 18,
+            "state": "Disponible"
+        }, {
+            "id": 19,
+            "state": "Disponible"
+        }, {
+            "id": 20,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "13",
+    "option": "reunion",
+    "name": "A",
+    "state": "Disponible",
+    "capacity": 4,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "14",
+    "option": "reunion",
+    "name": "B",
+    "state": "Disponible",
+    "capacity": 4,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "15",
+    "option": "reunion",
+    "name": "C",
+    "state": "Disponible",
+    "capacity": 7,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "16",
+    "option": "reunion",
+    "name": "D",
+    "state": "Disponible",
+    "capacity": 3,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "17",
+    "option": "reunion",
+    "name": "E",
+    "state": "Disponible",
+    "capacity": 3,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "18",
+    "option": "reunion",
+    "name": "F",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "19",
+    "option": "reunion",
+    "name": "G",
+    "state": "Disponible",
+    "capacity": 3,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "20",
+    "option": "reunion",
+    "name": "H",
+    "state": "Disponible",
+    "capacity": 2,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "21",
+    "option": "reunion",
+    "name": "I",
+    "state": "Disponible",
+    "capacity": 11,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }
+    ]
+}
+
+]
