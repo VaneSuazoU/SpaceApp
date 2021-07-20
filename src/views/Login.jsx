@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../img/logo.png";
 
-export const Login = () => {
+const Login = () => {
   return (
     <div>
       <section className="sideBar">
@@ -21,3 +21,5 @@ export const Login = () => {
     </div>
   );
 };
+
+export default Login;

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Meets from '../img/meetingicon.png';
 import Office from '../img/officeicon.png';
 import Schedule from '../img/schedule.png';

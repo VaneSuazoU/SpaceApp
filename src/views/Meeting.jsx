@@ -3,7 +3,7 @@ import { Nav } from "../components/Nav";
 import { Header } from "../components/Header";
 import MeetingImg from "../img/meeting.png";
 
-export const Meeting = () => {
+const Meeting = () => {
   return (
     <React.Fragment>
       <Header />
@@ -43,3 +43,5 @@ export const Meeting = () => {
     </React.Fragment>
   );
 };
+
+export default Meeting;

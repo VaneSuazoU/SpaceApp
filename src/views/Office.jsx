@@ -3,7 +3,7 @@ import { Nav } from "../components/Nav";
 import { Header } from "../components/Header";
 import OfficeImg from "../img/office.png";
 
-export const Office = () => {
+const Office = () => {
   return (
       <React.Fragment>
         <Header />
@@ -46,4 +46,6 @@ export const Office = () => {
       </React.Fragment>
   );
 };
+
+export default Office;
 

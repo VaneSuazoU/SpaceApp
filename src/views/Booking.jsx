@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "../components/Nav";
 import { Header } from "../components/Header";
 
-export const Booking = () => {
+const Booking = () => {
   return (
     <React.Fragment>
       <Header />
@@ -21,3 +21,5 @@ export const Booking = () => {
     </React.Fragment>
   );
 };
+
+export default Booking;

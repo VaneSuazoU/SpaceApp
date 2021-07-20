@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "../components/Nav";
 import { Header } from "../components/Header";
 
-export const Schedule = () => {
+const Schedule = () => {
   return (
     <React.Fragment>
       <Header />
@@ -23,3 +23,5 @@ export const Schedule = () => {
     </React.Fragment>
   );
 };
+
+export default Schedule;
