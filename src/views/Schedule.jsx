@@ -8,11 +8,12 @@ const Schedule = () => {
       <Header />
       <Nav />
       <section className="dateContainer">
-        Desde Hasta
-        <input type="date" /> - <input type="date" name="" id="" />
+        <label for=""><h5>Desde</h5></label>
+        <input type="date" name="" id="" /> - 
+        <label for=""><h5>Hasta</h5></label>
+        <input type="date" name="" id="" />
         <button className="today">Hoy</button>
       </section>
-      fecha de hoy
       <section className="meetingsContainer">
         <div className="infoCard">
           <p>Info blablablabla</p>

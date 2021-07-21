@@ -28,24 +28,25 @@ const Nav = (props) => {
 
   return (
     <nav className="navbar navbarBc">
-      <div className="container">
-        <NavLink to="/booking" className="btn btnNav">
+      <div className="btn-group-vertical">
+        <NavLink to="/booking" className="btn btnNav btn-lg active" role='button' aria-pressed="true">
           <img src={Schedule} alt="schedule" />
           Agendar
         </NavLink>
-        <NavLink to="/schedule" className="btn btnNav">
+        <NavLink to="/schedule" className="btn btnNav btn-lg active" role='button' aria-pressed="true">
           <img src={User} alt="user" />
           Mi Agenda
         </NavLink>
-        <NavLink to="/meeting" className="btn btnNav">
+        <NavLink to="/meeting" className="btn btnNav btn-lg active" role='button' aria-pressed="true">
           <img src={Meets} alt="meets" />
           Reuniones
         </NavLink>
-        <NavLink to="/office" className="btn btnNav">
+        <NavLink to="/office" className="btn btnNav btn-lg active">
           <img src={Office} alt="office" />
           Oficinas
         </NavLink>
-        <div onClick={() => logout()} className="btn btnNav">
+        <hr />
+        <div onClick={() => logout()} className="btn btnNav btn-lg active">
           <img src={Logout} alt="logout" />
           Cerrar Sesión
         </div>
