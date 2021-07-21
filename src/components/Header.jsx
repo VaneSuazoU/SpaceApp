@@ -6,18 +6,15 @@ const Header = () => {
   return (
     <nav className="headerBc">
       <div className="container">
-        <div className="btn-group">
-          <Link to="/" className="btn btnNav" activeClassName="active">
+          <Link to="/" className="headerA" activeClassName="active">
             <img src={Logo} alt="everis" />
           </Link>
-
-          <Link to="/logout" className="btn btnNav">
+          <Link to="/logout" className="headerB">
             {" "}
             Nombre usuario{" "}
           </Link>
           <div className="separate mt-2"></div>
         </div>
-      </div>
     </nav>
   );
 };
