@@ -9,7 +9,6 @@ import { withRouter } from "react-router";
 import swal from "sweetalert";
 
 const Nav = (props) => {
-
   const logout = () => {
     swal({
       title: "¿Deseas cerrar sesión?",
@@ -30,27 +29,25 @@ const Nav = (props) => {
   return (
     <nav className="navbar navbarBc">
       <div className="container">
-        <div className="btn-group">
-          <NavLink to="/booking" className="btn btnNav">
-            <img src={Schedule} alt="schedule" />
-            Agendar
-          </NavLink>
-          <NavLink to="/schedule" className="btn btnNav">
-            <img src={User} alt="user" />
-            Mi Agenda
-          </NavLink>
-          <NavLink to="/meeting" className="btn btnNav">
-            <img src={Meets} alt="meets" />
-            Reuniones
-          </NavLink>
-          <NavLink to="/office" className="btn btnNav">
-            <img src={Office} alt="office" />
-            Oficinas
-          </NavLink>
-          <div onClick={() => logout()} className="btn btnNav">
-            <img src={Logout} alt="logout" />
-            Cerrar Sesión
-          </div>
+        <NavLink to="/booking" className="btn btnNav">
+          <img src={Schedule} alt="schedule" />
+          Agendar
+        </NavLink>
+        <NavLink to="/schedule" className="btn btnNav">
+          <img src={User} alt="user" />
+          Mi Agenda
+        </NavLink>
+        <NavLink to="/meeting" className="btn btnNav">
+          <img src={Meets} alt="meets" />
+          Reuniones
+        </NavLink>
+        <NavLink to="/office" className="btn btnNav">
+          <img src={Office} alt="office" />
+          Oficinas
+        </NavLink>
+        <div onClick={() => logout()} className="btn btnNav">
+          <img src={Logout} alt="logout" />
+          Cerrar Sesión
         </div>
       </div>
     </nav>

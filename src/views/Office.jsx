@@ -6,15 +6,14 @@ import OfficeMap from "../components/OfficeMap";
 
 const Office = () => {
   return (
-      <React.Fragment>
-        <Header />
-        <Nav />
-        Y aca va la otra wea de las oficinas de mierda
-        <Attendees />
-        <OfficeMap />
-      </React.Fragment>
+    <React.Fragment>
+      <Header />
+      <Nav />
+
+      <Attendees />
+      <OfficeMap />
+    </React.Fragment>
   );
 };
 
 export default Office;
-

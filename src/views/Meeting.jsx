@@ -4,16 +4,12 @@ import Header from "../components/Header";
 import Attendees from "../components/Attendees";
 import MeetingMap from "../components/MeetingMap";
 
-
-
 const Meeting = () => {
   return (
     <React.Fragment>
       <Header />
       <Nav />
-      <section>
-        Aca va la wea de quien chucha está en la reu
-      </section>
+      <section></section>
       <Attendees />
       <MeetingMap />
     </React.Fragment>
