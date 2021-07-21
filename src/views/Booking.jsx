@@ -23,7 +23,6 @@ const Booking = () => {
   const loadModal = (e) => {
     e.preventDefault();
     // e.stopPropagation();
-
     // setQtyAttendees(value);
   };
 
@@ -34,7 +33,7 @@ const Booking = () => {
       <Nav />
       <main className="booking">
         <section className="mainContent">
-          <h3>¿Qué necesitas agendar?</h3>
+          <h3 className='bookingTitle'>¿Qué necesitas agendar?</h3>
           <div className="btnContainer">
             <button className="btnOffice" onClick={() => setType("jornada")}>
               Jornada
