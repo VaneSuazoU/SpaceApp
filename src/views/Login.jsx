@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div>
-      <section className="sideBar">
-        <img src={Logo} alt="everis" />
-      </section>
+      <div className="sidebarBG">
+        <section className="sideBar">
+          <img src={Logo} height="160" alt="everis" />
+        </section>
+      </div>
       <section className="contLogin">
         <div className="">Inicia sesión mediante tu cuenta corporativa</div>
         <div className="login">
@@ -16,7 +18,9 @@ const Login = () => {
           Contraseña
           <input type="password" className="loginInput" placeholder="******" />
           ¿Olvidaste tu cotraseña?
-          <Link to="/booking" className="btnLogin">Iniciar Sesión</Link>
+          <Link to="/booking" className="btnLogin">
+            Iniciar Sesión
+          </Link>
         </div>
       </section>
     </div>
