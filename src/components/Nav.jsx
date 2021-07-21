@@ -34,7 +34,6 @@ const Nav = (props) => {
             to="/booking"
             className="btn btnNav btn-lg active"
             role="button"
-            aria-pressed="true"
             activeStyle={{
               color: '#ffffff',
               background: "#99ae21",
@@ -79,10 +78,6 @@ const Nav = (props) => {
             <img src={Office} alt="office" />
             Oficinas
           </NavLink>
-          
-        </div>
-      </nav>
-      <nav className="navbar">
       <hr />
       <div className="btn-group-vertical btnSesion">
       <div
@@ -94,7 +89,9 @@ const Nav = (props) => {
         Cerrar Sesión
       </div>
       </div>
+        </div>
       </nav>
+      
     </div>
   );
 };

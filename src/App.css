@@ -17,6 +17,11 @@ input:focus {
   }
 }
 
+.bookingTitle{
+margin: 0;
+}
+
+
 /* header */
 .headerBc {
   background-color: #99ac21;
@@ -41,7 +46,7 @@ input:focus {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
-  z-index: 5;
+  height: 80em;
 }
 
 .btnNav {
@@ -183,6 +188,19 @@ input:focus {
 
 /* Office */
 
+.userListA{
+  margin: 7% 29% 4% 32%;
+}
+.officeTitleA{
+  margin: -12% 23% -2% 56%;
+}
+.userListB{
+  margin: 7% 29% 4% 32%;
+}
+.officeTitleB{
+  margin: -13% 7% -3% 0%;
+}
+
 /* Booking */
 
 .btnOffice {
@@ -226,19 +244,20 @@ input:focus {
   flex-direction: column;
   align-items: center;
   padding: 2em;
+  margin-top: 2em;
 }
 .mainOptions {
   display: flex;
   justify-content: space-between;
   padding: 1.5em;
-  width: 60vw;
+  width: 50vw;
 }
 .mainContent {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  height: 13vh;
 }
 .btnContainer {
   display: flex;
