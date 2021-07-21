@@ -22,8 +22,10 @@ input:focus {
   background-color: #99ac21;
   color: #fbfbfb;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
+
+
 
 /* Navbar */
 .navbarBc {
@@ -33,10 +35,7 @@ input:focus {
   width: 18em;
   padding-top: 20px;
   float: left;
-}
-btnNav:active {
-  background-color: #99ac21;
-  color: #fbfbfb;
+  height: 50em;
 }
 
 .navbar {
@@ -59,9 +58,6 @@ btnNav:active {
 
 /* attendees */
 
-#modalAttendees{
-  
-}
 
 .attendeesTitle {
   display: flex;
@@ -132,8 +128,8 @@ btnNav:active {
 .dateContainer {
   padding-left: 11em;
   display: flex;
-  justify-content: space-between;
-  width: 75vw;
+  justify-content: space-evenly;
+  width: 55vw;
   padding-top: 1em;
 }
 
@@ -143,6 +139,7 @@ btnNav:active {
   border-radius: 0.5em;
   border-style: none;
   color: white;
+  margin-left: 20px;
 }
 
 .infoCard {
@@ -159,10 +156,11 @@ btnNav:active {
 .meetingsContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 1em;
-  width: 85vw;
   height: 45vh;
+  float: right;
+  padding-right: 20em;
 }
 
 .editBtn {
@@ -187,6 +185,12 @@ btnNav:active {
 
 /* Meetings */
 
+
+
+/* Office */
+
+/* Booking */
+
 .btnOffice {
   background-color: #9d4878;
   color: white;
@@ -208,7 +212,7 @@ btnNav:active {
   color: white;
   border-radius: 5px;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 .btnOffice:active {
@@ -216,17 +220,13 @@ btnNav:active {
   color: white;
   border-radius: 5px;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 .mainContainer {
   display: flex;
   justify-content: center;
 }
-
-/* Office */
-
-/* Booking */
 .booking {
   display: flex;
   flex-direction: column;
