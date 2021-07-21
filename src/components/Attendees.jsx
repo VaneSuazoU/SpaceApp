@@ -1,6 +1,15 @@
 import React from "react";
 
 const Attendees = () => {
+
+  const addAttendees = (e) => {
+    e.preventDefault();
+    
+  };
+  const deleteAttendees = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <div
       className="modal fade"
@@ -17,13 +26,10 @@ const Attendees = () => {
             </h5>
             <button
               type="button"
-              id="btnCloseModal"
-              className="close"
+              className="btn-close"
               data-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+            ></button>
           </div>
           <div className="modal-body">
             <form id="modalAttendees">
@@ -42,9 +48,9 @@ const Attendees = () => {
                     placeholder="Nombre Completo"
                   />
                 </div>
-                <button className="btnClose popover-test">X</button>
+                <button className="btn btnClose popover-test" onClick={(e)=>deleteAttendees(e)} >X</button>
               </div>
-              <button className="btnAdd popover-test">+</button>
+              <button className="btn btnAdd popover-test" onClick={(e)=>addAttendees(e)}>+</button>
               <button className="btnPlus" data-dismiss="modal">
                 Listo
               </button>
@@ -53,7 +59,6 @@ const Attendees = () => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
