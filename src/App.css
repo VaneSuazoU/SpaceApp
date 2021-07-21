@@ -25,8 +25,6 @@ input:focus {
   justify-content: space-between;
 }
 
-
-
 /* Navbar */
 .navbarBc {
   margin-left: 20px;
@@ -35,7 +33,7 @@ input:focus {
   width: 18em;
   padding-top: 20px;
   float: left;
-  height: 50em;
+  z-index: 6;
 }
 
 .navbar {
@@ -43,17 +41,23 @@ input:focus {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  z-index: 5;
 }
 
 .btnNav {
   background-color: #fbfbfb;
   align-items: flex-start;
+  padding: 1.5em 2em 1.5em 2em;
 }
 
 .btnNav:active {
   background-color: #99ae21;
   opacity: 50%;
+  padding: 1.5em 2em 1.5em 2em;
 }
+
+
+
 
 /* attendees */
 
@@ -87,15 +91,6 @@ input:focus {
   border-radius: 0.5em;
   border-style: none;
   padding: 0.5em 1em 0.5em 1em;
-}
-
-.btnAdd {
-  background-color: #99ae21;
-  color: white;
-  border-radius: 0.5em;
-  border-style: none;
-  padding: 0.5em 1em 0.5em 1em;
-  
 }
 .btnClose:hover {
   background-color: #99ae21;
@@ -261,7 +256,7 @@ input:focus {
   flex-wrap: wrap;
   width: 30em;
   float: left;
-  height: 35em;
+  height: 50em;
   margin-left: 4em;
 }
 
