@@ -82,8 +82,9 @@ const Nav = (props) => {
           
         </div>
       </nav>
+      <nav className="navbar">
       <hr />
-      <div className="btn-group-vertical">
+      <div className="btn-group-vertical btnSesion">
       <div
         onClick={() => logout()}
         className="btn btnNav btn-lg active"
@@ -93,6 +94,7 @@ const Nav = (props) => {
         Cerrar Sesión
       </div>
       </div>
+      </nav>
     </div>
   );
 };
