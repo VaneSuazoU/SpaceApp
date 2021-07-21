@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Meets from "../img/meetingicon.png";
 import Office from "../img/officeicon.png";
 import Schedule from "../img/schedule.png";
@@ -9,6 +9,7 @@ import { withRouter } from "react-router";
 import swal from "sweetalert";
 
 const Nav = (props) => {
+
   const logout = () => {
     swal({
       title: "¿Deseas cerrar sesión?",
@@ -46,10 +47,10 @@ const Nav = (props) => {
             <img src={Office} alt="office" />
             Oficinas
           </NavLink>
-          <Link onClick={() => logout()} className="btn btnNav">
+          <div onClick={() => logout()} className="btn btnNav">
             <img src={Logout} alt="logout" />
             Cerrar Sesión
-          </Link>
+          </div>
         </div>
       </div>
     </nav>
