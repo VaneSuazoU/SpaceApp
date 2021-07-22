@@ -37,7 +37,7 @@ const Attendees = () => {
   const limpiar = (e) => {
     e.preventDefault();
 
-    div.innerHTML = "";
+    div.innerHTML = " ";
   };
 
   return (
