@@ -29,6 +29,13 @@ input:focus {
   justify-content: space-between;
 }
 
+
+.headerB{
+display: flex;
+background-color: black;
+font-size: large;
+}
+
 /* Navbar */
 .navbarBc {
   margin-left: 20px;
@@ -249,7 +256,6 @@ input:focus {
 }
 .show {
   display: block;
-  margin: 5% 10% 5% 35%;
 }
 
 /* Office */
@@ -398,3 +404,34 @@ input:focus {
 
 /* Admin */
 
+.adminContainer{
+  padding-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.adminData{
+  margin-top: 5em;
+  margin-left: 25em;
+  margin-right: 5em;
+  font-size: large;
+}
+
+.btnPhase {
+  background-color: #9d4878;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.5em 1em 0.5em 1em;
+  margin-left: 1em
+}
+
+.btnPhase:hover {
+  background-color: #99ae21;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.5em 1em 0.5em 1em;
+}
