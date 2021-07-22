@@ -6,6 +6,7 @@ import Schedule from "./views/Schedule";
 import Meeting from "./views/Meeting";
 import Office from "./views/Office";
 import Booking from "./views/Booking";
+import Admin from "./views/Admin";
 
 const App = () => {
   return (
@@ -21,10 +22,13 @@ const App = () => {
           <Meeting />
         </Route>
         <Route exact path="/booking">
-          <Booking />
+          <Booking />git commit
         </Route>
         <Route exact path="/office">
           <Office />
+        </Route>
+        <Route exact path="/admin">
+          <Admin />
         </Route>
       </Switch>
     </Router>

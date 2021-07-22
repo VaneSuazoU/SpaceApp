@@ -1,5 +1,637 @@
 [{
     "id": "1",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G1",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "2",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G2",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "3",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G3",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "4",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G4",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "5", 
+    "phases":"1",
+    "option": "jornada",
+    "name": "G5",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "6",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G6",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "7",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G7",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "8",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G8",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "9",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G9",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "10",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G10",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "11",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G11",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "12",
+    "phases":"1",
+    "option": "jornada",
+    "name": "G12",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},
+{
+    "id": "13",
+    "phases":"1",
+    "option": "reunion",
+    "name": "A",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "14",
+    "phases":"1",
+    "option": "reunion",
+    "name": "B",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "15",
+    "phases":"1",
+    "option": "reunion",
+    "name": "C",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "16",
+    "phases":"1",
+    "option": "reunion",
+    "name": "D",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "17",
+    "phases":"1",
+    "option": "reunion",
+    "name": "E",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "18",
+    "phases":"1",
+    "option": "reunion",
+    "name": "F",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "19",
+    "phases":"1",
+    "option": "reunion",
+    "name": "G",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "20",
+    "phases":"1",
+    "option": "reunion",
+    "name": "H",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "21",
+    "phases":"1",
+    "option": "reunion",
+    "name": "I",
+    "state": "Disponible",
+    "capacity": 0,
+    "chair": 0
+},{
+    "id": "22",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G1",
+    "state": "Disponible",
+    "capacity": 6,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "23",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G2",
+    "state": "Disponible",
+    "capacity": 6,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "24",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G3",
+    "state": "Disponible",
+    "capacity": 4,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "25",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G4",
+    "state": "Disponible",
+    "capacity": 7,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "26", 
+    "phases":"2",
+    "option": "jornada",
+    "name": "G5",
+    "state": "Disponible",
+    "capacity": 6,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "27",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G6",
+    "state": "Disponible",
+    "capacity": 5,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "28",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G7",
+    "state": "Disponible",
+    "capacity": 6,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "29",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G8",
+    "state": "Disponible",
+    "capacity": 7,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }
+        
+    ]
+},
+{
+    "id": "30",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G9",
+    "state": "Disponible",
+    "capacity": 5,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "31",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G10",
+    "state": "Disponible",
+    "capacity": 5,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "32",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G11",
+    "state": "Disponible",
+    "capacity": 6,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "33",
+    "phases":"2",
+    "option": "jornada",
+    "name": "G12",
+    "state": "Disponible",
+    "capacity": 8,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }, {
+            "id": 4,
+            "state": "Disponible"
+        }, {
+            "id": 5,
+            "state": "Disponible"
+        }, {
+            "id": 6,
+            "state": "Disponible"
+        }, {
+            "id": 7,
+            "state": "Disponible"
+        }, {
+            "id": 8,
+            "state": "Disponible"
+        }
+    ]
+},
+{
+    "id": "34",
+    "phases":"2",
+    "option": "reunion",
+    "name": "A",
+    "state": "Disponible",
+    "capacity": 2,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "35",
+    "phases":"2",
+    "option": "reunion",
+    "name": "B",
+    "state": "Disponible",
+    "capacity": 2,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "36",
+    "phases":"2",
+    "option": "reunion",
+    "name": "C",
+    "state": "Disponible",
+    "capacity": 3,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }, {
+            "id": 2,
+            "state": "Disponible"
+        }, {
+            "id": 3,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "37",
+    "phases":"2",
+    "option": "reunion",
+    "name": "D",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "38",
+    "phases":"2",
+    "option": "reunion",
+    "name": "E",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "39",
+    "phases":"2",
+    "option": "reunion",
+    "name": "F",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "40",
+    "phases":"2",
+    "option": "reunion",
+    "name": "G",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "41",
+    "phases":"2",
+    "option": "reunion",
+    "name": "H",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "42",
+    "phases":"2",
+    "option": "reunion",
+    "name": "I",
+    "state": "Disponible",
+    "capacity": 1,
+    "chair": [{
+            "id": 1,
+            "state": "Disponible"
+        }
+    ]
+},{
+    "id": "43",
+    "phases":"3",
     "option": "jornada",
     "name": "G1",
     "state": "Disponible",
@@ -44,7 +676,8 @@
     ]
 },
 {
-    "id": "2",
+    "id": "44",
+    "phases":"3",
     "option": "jornada",
     "name": "G2",
     "state": "Disponible",
@@ -89,7 +722,8 @@
     ]
 },
 {
-    "id": "3",
+    "id": "45",
+    "phases":"3",
     "option": "jornada",
     "name": "G3",
     "state": "Disponible",
@@ -131,7 +765,8 @@
     ]
 },
 {
-    "id": "4",
+    "id": "46",
+    "phases":"3",
     "option": "jornada",
     "name": "G4",
     "state": "Disponible",
@@ -182,7 +817,8 @@
     ]
 },
 {
-    "id": "5", 
+    "id": "47", 
+    "phases":"3",
     "option": "jornada",
     "name": "G5",
     "state": "Disponible",
@@ -227,7 +863,8 @@
     ]
 },
 {
-    "id": "6",
+    "id": "48",
+    "phases":"3",
     "option": "jornada",
     "name": "G6",
     "state": "Disponible",
@@ -269,7 +906,8 @@
     ]
 },
 {
-    "id": "7",
+    "id": "49",
+    "phases":"3",
     "option": "jornada",
     "name": "G7",
     "state": "Disponible",
@@ -314,7 +952,8 @@
     ]
 },
 {
-    "id": "8",
+    "id": "50",
+    "phases":"3",
     "option": "jornada",
     "name": "G8",
     "state": "Disponible",
@@ -368,7 +1007,8 @@
     ]
 },
 {
-    "id": "9",
+    "id": "51",
+    "phases":"3",
     "option": "jornada",
     "name": "G9",
     "state": "Disponible",
@@ -407,7 +1047,8 @@
     ]
 },
 {
-    "id": "10",
+    "id": "52",
+    "phases":"3",
     "option": "jornada",
     "name": "G10",
     "state": "Disponible",
@@ -446,7 +1087,8 @@
     ]
 },
 {
-    "id": "11",
+    "id": "53",
+    "phases":"3",
     "option": "jornada",
     "name": "G11",
     "state": "Disponible",
@@ -494,7 +1136,8 @@
     ]
 },
 {
-    "id": "12",
+    "id": "54",
+    "phases":"3",
     "option": "jornada",
     "name": "G12",
     "state": "Disponible",
@@ -563,7 +1206,8 @@
     ]
 },
 {
-    "id": "13",
+    "id": "55",
+    "phases":"3",
     "option": "reunion",
     "name": "A",
     "state": "Disponible",
@@ -583,7 +1227,8 @@
         }
     ]
 },{
-    "id": "14",
+    "id": "56",
+    "phases":"3",
     "option": "reunion",
     "name": "B",
     "state": "Disponible",
@@ -603,7 +1248,8 @@
         }
     ]
 },{
-    "id": "15",
+    "id": "57",
+    "phases":"3",
     "option": "reunion",
     "name": "C",
     "state": "Disponible",
@@ -632,7 +1278,8 @@
         }
     ]
 },{
-    "id": "16",
+    "id": "58",
+    "phases":"3",
     "option": "reunion",
     "name": "D",
     "state": "Disponible",
@@ -649,7 +1296,8 @@
         }
     ]
 },{
-    "id": "17",
+    "id": "59",
+    "phases":"3",
     "option": "reunion",
     "name": "E",
     "state": "Disponible",
@@ -666,7 +1314,8 @@
         }
     ]
 },{
-    "id": "18",
+    "id": "60",
+    "phases":"3",
     "option": "reunion",
     "name": "F",
     "state": "Disponible",
@@ -677,7 +1326,8 @@
         }
     ]
 },{
-    "id": "19",
+    "id": "61",
+    "phases":"3",
     "option": "reunion",
     "name": "G",
     "state": "Disponible",
@@ -694,7 +1344,8 @@
         }
     ]
 },{
-    "id": "20",
+    "id": "62",
+    "phases":"3",
     "option": "reunion",
     "name": "H",
     "state": "Disponible",
@@ -708,7 +1359,8 @@
         }
     ]
 },{
-    "id": "21",
+    "id": "63",
+    "phases":"3",
     "option": "reunion",
     "name": "I",
     "state": "Disponible",
