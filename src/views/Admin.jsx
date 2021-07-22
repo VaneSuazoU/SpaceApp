@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../../src/data/data.json";
 import Nav from "../components/Nav";
+import HeaderAdmin from "../components/HeaderAdmin";
 
 const Admin = () => {
   const [phase, setPhase] = useState();
@@ -11,17 +12,20 @@ const Admin = () => {
   return (
     <React.Fragment>
       <Nav />
+      <HeaderAdmin />
       <main>
-        <section>
-          <button value="1" onClick={(e) => setPhase(e.target.value)}>
+        <section className='adminContainer'>
+          <button type="button" class="btn btnPhase" data-bs-toggle="button" autocomplete="off" value="1" onClick={(e) => setPhase(e.target.value)}>
             Fase Uno
           </button>
-          <button value="2" onClick={(e) => setPhase(e.target.value)}>
+          <button type="button" class="btn btnPhase" data-bs-toggle="button" autocomplete="off" value="2" onClick={(e) => setPhase(e.target.value)}>
             Fase Dos
           </button>
-          <button value="3" onClick={(e) => setPhase(e.target.value)}>
+          <button type="button" class="btn btnPhase" data-bs-toggle="button" autocomplete="off" value="3" onClick={(e) => setPhase(e.target.value)}>
             Fase Tres
           </button>
+          </section>
+          <section className='adminDataA'>
           {oficcesPhase.map((item, index) => (
             <div>
               {item.name}
