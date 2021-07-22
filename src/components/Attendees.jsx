@@ -80,7 +80,9 @@ const Attendees = () => {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="Correo"
+                      // placeholder="Correo"
+                      value="luis.patria@everis.com"
+                      disabled
                     />
                   </div>
                   <div className="col">
@@ -88,6 +90,8 @@ const Attendees = () => {
                       type="text"
                       className="form-control"
                       placeholder="Nombre Completo"
+                      value="Luis Patria"
+                      disabled
                     />
                   </div>
                 </div>

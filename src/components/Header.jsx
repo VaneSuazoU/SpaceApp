@@ -11,7 +11,7 @@ const Header = () => {
           </Link>
           <Link to="/logout" className="headerB">
             {" "}
-            Nombre usuario{" "}
+            Luis Patria{" "}
           </Link>
           <div className="separate mt-2"></div>
         </div>
