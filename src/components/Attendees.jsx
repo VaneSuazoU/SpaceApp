@@ -2,6 +2,12 @@ import React from "react";
 
 const Attendees = () => {
   let contador = 0;
+  // const [users, setUsers] = useState([]);
+  // const [email, setEmail] = useState();
+  // const [name, setName] = useState();
+  const addUser = (value) => {
+
+  };
   const addAttendees = (e) => {
     e.preventDefault();
     contador++;
@@ -16,6 +22,7 @@ const Attendees = () => {
     const input = document.createElement("input");
     input.className = "form-control";
     input.type = "email";
+    input.onchange = (e) => console.log("onchange", e.target.value);
     input.placeholder = "Correo";
     col1.appendChild(input);
 
