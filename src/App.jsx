@@ -8,6 +8,7 @@ import Office from "./views/Office";
 import Booking from "./views/Booking";
 import Admin from "./views/Admin";
 import AdminLogin from "./views/AdminLogin";
+import RecoverPassword from "./views/RecoverPassword";
 
 const App = () => {
   return (
@@ -31,8 +32,11 @@ const App = () => {
         <Route exact path="/admin">
           <Admin />
         </Route>
-        <Route exact path= "/adminLogin">
+        <Route exact path="/adminLogin">
           <AdminLogin />
+        </Route>
+        <Route exact path="/recover">
+          <RecoverPassword />
         </Route>
       </Switch>
     </Router>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AdminLogin = () => {
   return (
-    <div>
+    <React.Fragment>
       <div className="sidebarBG">
         <section className="sideBar">
           <img src={Logo} height="160" alt="everis" />
@@ -13,7 +13,8 @@ const AdminLogin = () => {
          <section className="contLogin">
         <div className="">Acceso Administrador</div>
         <div className="login">
-          Nombre de usuario
+          <p>Nombre de usuario</p>
+          <br/>
           <input type="text" className="loginInput" placeholder="Ej: Usuario" />
           Contraseña
           <input type="password" className="loginInput" placeholder="******" />
@@ -23,7 +24,7 @@ const AdminLogin = () => {
           </Link>
         </div>
       </section>
-    </div>
+    </React.Fragment>
   );
 };
 

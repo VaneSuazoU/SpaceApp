@@ -12,13 +12,13 @@ const Login = () => {
       </div>
       <Link to="/adminLogin" className="adminAcces">Acceso Administrador</Link>
       <section className="contLogin">
-        <div className="">Inicia sesión mediante tu cuenta corporativa</div>
+        <div className=""><p>Inicia sesión mediante tu cuenta corporativa</p></div>
         <div className="login">
           Nombre de usuario
           <input type="text" className="loginInput" placeholder="Ej: Usuario" />
           Contraseña
           <input type="password" className="loginInput" placeholder="******" />
-          <Link to="/" className="passRecover">¿Olvidaste tu cotraseña?</Link>
+          <Link to="/recover" className="passRecover">¿Olvidaste tu cotraseña?</Link>
           <Link to="/booking" className="btnLogin">
             Iniciar Sesión
           </Link>
