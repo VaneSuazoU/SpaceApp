@@ -16,7 +16,7 @@ const Schedule = () => {
       </section>
       <section className="meetingsContainer">
         <div className="infoCard">
-          <p>Info blablablabla</p>
+          <p>Jornada</p>
           <div className="editBtn">
             <button className="btnCancel">Cancelar</button>
             <button className="btnEdit">Editar</button>

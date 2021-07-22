@@ -10,6 +10,7 @@ const Login = () => {
           <img src={Logo} height="160" alt="everis" />
         </section>
       </div>
+      <Link to="/" className="adminAcces">Acceso Administrador</Link>
       <section className="contLogin">
         <div className="">Inicia sesión mediante tu cuenta corporativa</div>
         <div className="login">
@@ -17,7 +18,7 @@ const Login = () => {
           <input type="text" className="loginInput" placeholder="Ej: Usuario" />
           Contraseña
           <input type="password" className="loginInput" placeholder="******" />
-          ¿Olvidaste tu cotraseña?
+          <Link to="/" className="passRecover">¿Olvidaste tu cotraseña?</Link>
           <Link to="/booking" className="btnLogin">
             Iniciar Sesión
           </Link>

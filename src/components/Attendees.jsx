@@ -7,6 +7,9 @@ const Attendees = () => {
     contador++;
     const id = "a" + contador;
     const div = document.querySelector("#attendeesDiv");
+    const newDiv = document.createElement("div");
+    newDiv.className = "newDiv";
+    newDiv.id = id;
     const col1 = document.createElement("div");
     col1.className = "col-3";
     col1.id = id;
@@ -31,20 +34,17 @@ const Attendees = () => {
     btnDelete.onclick = (e) => deleteAttendees(e, id);
     btnDelete.textContent = "X";
 
-    div.appendChild(col1);
-    div.appendChild(col2);
-    div.appendChild(btnDelete);
+    newDiv.appendChild(col1);
+    newDiv.appendChild(col2);
+    newDiv.appendChild(btnDelete);
+    div.appendChild(newDiv);
   };
   const deleteAttendees = (e, id) => {
     e.preventDefault();
 
-    const algo = document.querySelectorAll("#" + id);
-    for (let i = 0; i < algo.length; i++) {
-      console.log(algo[i]);
-      const div = document.getElementById("attendeesDiv");
-      div.removeChild(algo[i]);
-      // remove(algo[i]);
-    }
+    const algo = document.querySelector("#" + id);
+    const div = document.getElementById("attendeesDiv");
+    div.removeChild(algo);
   };
   const clean = (e) => {
     e.preventDefault();
@@ -74,8 +74,8 @@ const Attendees = () => {
           </div>
           <div className="modal-body">
             <form id="modalAttendees">
-          <div className='form-group'>
-              <div className="form-row" id="attendeesDiv0">
+              <div className="form-group">
+                <div className="form-row" id="attendeesDiv0">
                   <div className="col">
                     <input
                       type="email"
@@ -94,30 +94,30 @@ const Attendees = () => {
                       disabled
                     />
                   </div>
-              </div>
-              <div className="form-row" id="attendeesDiv">
-                {/* aqui agregamos lo nuevo */}
-              </div>
+                </div>
+                <div className="form-row" id="attendeesDiv">
+                  {/* aqui agregamos lo nuevo */}
+                </div>
               </div>
             </form>
-            <div className='buttonAdd'>
-            <button
-              className="btn btnAdd popover-test"
-              onClick={(e) => addAttendees(e)}
-            >
-              +
-            </button>
+            <div className="buttonAdd">
+              <button
+                className="btn btnAdd popover-test"
+                onClick={(e) => addAttendees(e)}
+              >
+                +
+              </button>
             </div>
-            <div className='buttons'>
-            <button
-              className="btn btnClose popover-test"
-              onClick={(e) => clean(e)}
-            >
-              Limpiar
-            </button>
-            <button className="btnPlus" data-dismiss="modal">
-              Listo
-            </button>
+            <div className="buttons">
+              <button
+                className="btn btnClose popover-test"
+                onClick={(e) => clean(e)}
+              >
+                Limpiar
+              </button>
+              <button className="btnPlus" data-dismiss="modal">
+                Listo
+              </button>
             </div>
           </div>
         </div>
