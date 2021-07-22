@@ -63,6 +63,7 @@ const Booking = () => {
           >
             {" "}
             Añadir asistentes
+
           </button>
 
           <AttendeesModal />
