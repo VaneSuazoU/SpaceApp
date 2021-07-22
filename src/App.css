@@ -135,12 +135,16 @@ input:focus {
   border-style: none;
   padding: 0.5em 1em 0.5em 1em;
 }
-
-.form-control{
+.newDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 29em;
+}
+.form-control {
   width: 13em;
 }
 
-#attendeesDiv{
+#attendeesDiv {
   display: inline-flex;
   justify-content: space-between;
   margin-bottom: 1em;
@@ -148,7 +152,7 @@ input:focus {
   width: 30em;
 }
 
-#attendeesDiv0{
+#attendeesDiv0 {
   display: inline-flex;
   justify-content: space-between;
   margin-bottom: 1em;
@@ -156,13 +160,13 @@ input:focus {
   width: 30em;
 }
 
-.buttonAdd{
+.buttonAdd {
   width: 30em;
   display: flex;
   justify-content: flex-end;
 }
 
-.buttons{
+.buttons {
   width: 30em;
   display: flex;
   justify-content: space-between;
@@ -206,6 +210,11 @@ input:focus {
   float: right;
   padding-right: 20em;
 }
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40em;
+}
 
 .editBtn {
   display: flex;
@@ -228,11 +237,30 @@ input:focus {
 }
 
 /* Meetings */
+.header {
+  margin-bottom: 2em;
+}
+.map {
+  margin-top: 2em;
+}
+.userLista {
+  display: none;
+  margin: 5% 10% 5% 35%;
+}
+.show {
+  display: block;
+  margin: 5% 10% 5% 35%;
+}
 
 /* Office */
 
-.userListA {
-  margin: 7% 29% 4% 32%;
+.userLista2 {
+  display: none;
+  margin: 5% 10% 5% 35%;
+}
+.show2 {
+  display: block;
+  margin: 5% 10% 5% 35%;
 }
 .officeTitleA {
   margin: -12% 23% -2% 56%;
@@ -308,7 +336,14 @@ input:focus {
   width: 20vw;
 }
 /* Login */
-
+.adminAcces{
+  display: flex;
+  justify-content: flex-end;
+  color: #9d4878;
+}
+.passRecover{
+  color: #9d4878;
+}
 .sideBar {
   margin-top: 20em;
   background-color: #99ac21;
@@ -361,4 +396,5 @@ input:focus {
   align-items: stretch;
 }
 
-/* Logout */
+/* Admin */
+
