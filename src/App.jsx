@@ -22,7 +22,7 @@ const App = () => {
           <Meeting />
         </Route>
         <Route exact path="/booking">
-          <Booking />
+          <Booking />git commit
         </Route>
         <Route exact path="/office">
           <Office />
