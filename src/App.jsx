@@ -7,6 +7,7 @@ import Meeting from "./views/Meeting";
 import Office from "./views/Office";
 import Booking from "./views/Booking";
 import Admin from "./views/Admin";
+import AdminLogin from "./views/AdminLogin";
 
 const App = () => {
   return (
@@ -22,13 +23,16 @@ const App = () => {
           <Meeting />
         </Route>
         <Route exact path="/booking">
-          <Booking />git commit
+          <Booking />
         </Route>
         <Route exact path="/office">
           <Office />
         </Route>
         <Route exact path="/admin">
           <Admin />
+        </Route>
+        <Route exact path="/adminLogin">
+          <AdminLogin />
         </Route>
       </Switch>
     </Router>
