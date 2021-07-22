@@ -1,10 +1,11 @@
 import React from "react";
 
 const Attendees = () => {
-  const div = document.getElementById("attendeesDiv");
+ 
+
   const addAttendees = (e) => {
     e.preventDefault();
-
+     const div = document.querySelector("#attendeesDiv");
     const col1 = document.createElement("div");
     col1.className = "col-3";
     const input = document.createElement("input");
@@ -33,12 +34,10 @@ const Attendees = () => {
   const deleteAttendees = (e) => {
     e.preventDefault();
   };
-
-  const limpiar = (e) => {
-    e.preventDefault();
-
-    div.innerHTML = " ";
-  };
+  // const limpiar = (e) => {
+  //   e.preventDefault();
+  //   div.innerHTML = " ";
+  // };
 
   return (
     <div
@@ -91,12 +90,12 @@ const Attendees = () => {
             >
               +
             </button>
-            <button
+            {/* <button
               className="btn btn-warning popover-test"
               onClick={(e) => limpiar(e)}
             >
               Limpiar
-            </button>
+            </button> */}
             <button className="btnPlus" data-dismiss="modal">
               Listo
             </button>
