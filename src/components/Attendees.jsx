@@ -74,8 +74,8 @@ const Attendees = () => {
           </div>
           <div className="modal-body">
             <form id="modalAttendees">
+          <div className='form-group'>
               <div className="form-row" id="attendeesDiv0">
-                <div className="form-row">
                   <div className="col">
                     <input
                       type="email"
@@ -94,20 +94,23 @@ const Attendees = () => {
                       disabled
                     />
                   </div>
-                </div>
               </div>
               <div className="form-row" id="attendeesDiv">
                 {/* aqui agregamos lo nuevo */}
               </div>
+              </div>
             </form>
+            <div className='buttonAdd'>
             <button
               className="btn btnAdd popover-test"
               onClick={(e) => addAttendees(e)}
             >
               +
             </button>
+            </div>
+            <div className='buttons'>
             <button
-              className="btn btn-warning popover-test"
+              className="btn btnClose popover-test"
               onClick={(e) => clean(e)}
             >
               Limpiar
@@ -115,6 +118,7 @@ const Attendees = () => {
             <button className="btnPlus" data-dismiss="modal">
               Listo
             </button>
+            </div>
           </div>
         </div>
       </div>
