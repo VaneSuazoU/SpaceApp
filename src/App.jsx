@@ -31,7 +31,7 @@ const App = () => {
         <Route exact path="/admin">
           <Admin />
         </Route>
-        <Route exact path="/adminLogin">
+        <Route exact path= "/adminLogin">
           <AdminLogin />
         </Route>
       </Switch>
