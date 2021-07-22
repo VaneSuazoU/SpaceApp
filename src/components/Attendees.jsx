@@ -50,7 +50,7 @@ const Attendees = () => {
                 </div>
                 <button className="btn btnClose popover-test" onClick={(e)=>deleteAttendees(e)} >X</button>
               </div>
-              <button className="btn btnAdd popover-test" onClick={(e)=>addAttendees(e)}>+</button>
+              <button className="btn btnPlus popover-test" onClick={(e)=>addAttendees(e)}>+</button>
               <button className="btnPlus" data-dismiss="modal">
                 Listo
               </button>

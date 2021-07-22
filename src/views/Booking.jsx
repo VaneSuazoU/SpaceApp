@@ -54,7 +54,7 @@ const Booking = () => {
           <input type="time" onChange={(e) => setEndTime(e.target.value)} />
           <button
             id="attendees"
-            className="btn btn-info"
+            className="btn btnAdd"
             data-backdrop="static"
             data-keyboard="false"
             data-toggle="modal"
