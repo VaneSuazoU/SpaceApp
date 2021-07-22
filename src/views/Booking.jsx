@@ -10,8 +10,8 @@ const Booking = () => {
   const [endTime, setEndTime] = useState();
   const [date, setDate] = useState();
   const [type, setType] = useState();
-  const [qtyAttendees, setQtyAttendees] = useState(null);
-  const [attendees, setAttendees] = useState([]);
+  // const [qtyAttendees, setQtyAttendees] = useState(null);
+  // const [attendees, setAttendees] = useState([]);
 
   const request = () => {
     const booking = { id: shortid.generate(), startTime, endTime, date, type };
@@ -33,7 +33,7 @@ const Booking = () => {
       <Nav />
       <main className="booking">
         <section className="mainContent">
-          <h3 className='bookingTitle'>¿Qué necesitas agendar?</h3>
+          <h3 className="bookingTitle">¿Qué necesitas agendar?</h3>
           <div className="btnContainer">
             <button className="btnOffice" onClick={() => setType("jornada")}>
               Jornada
@@ -54,7 +54,7 @@ const Booking = () => {
           <input type="time" onChange={(e) => setEndTime(e.target.value)} />
           <button
             id="attendees"
-            className="btn btnAdd"
+            className="btn btn-info"
             data-backdrop="static"
             data-keyboard="false"
             data-toggle="modal"
