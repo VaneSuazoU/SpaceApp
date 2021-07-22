@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../img/logo.png";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const AdminLogin = () => {
   return (
     <div>
       <div className="sidebarBG">
@@ -10,16 +10,15 @@ const Login = () => {
           <img src={Logo} height="160" alt="everis" />
         </section>
       </div>
-      <Link to="/adminLogin" className="adminAcces">Acceso Administrador</Link>
-      <section className="contLogin">
-        <div className="">Inicia sesión mediante tu cuenta corporativa</div>
+         <section className="contLogin">
+        <div className="">Acceso Administrador</div>
         <div className="login">
           Nombre de usuario
           <input type="text" className="loginInput" placeholder="Ej: Usuario" />
           Contraseña
           <input type="password" className="loginInput" placeholder="******" />
           <Link to="/" className="passRecover">¿Olvidaste tu cotraseña?</Link>
-          <Link to="/booking" className="btnLogin">
+          <Link to="/admin" className="btnLogin">
             Iniciar Sesión
           </Link>
         </div>
@@ -28,4 +27,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default AdminLogin;
